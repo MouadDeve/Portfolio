@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" href="images/icon.jpg">
+</head>
+<body>
+    <div class="all">
+        <div class="div1">
+            <div>
+                <h3 class = 'mouad'>Mouad</h3>
+            </div>
+            <i class="fa-solid fa-bars" id="nav"></i>
+            <i class="fa-solid fa-xmark" id="close"></i>
+            <div class="nav">
+                <p class="p1">Home</p>
+                <p class="p1">About</p>
+                <p class="p1">Services</p>
+                <p class="p1">Contact</p>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-facebook" id="icon"></i>
+                <i class="fa-brands fa-instagram" id="icon"></i>
+                <i class="fa-brands fa-linkedin" id="icon"></i>
+                <i class="fa-regular fa-moon" id="notDark"></i>
+                <i class="fa-solid fa-moon" id="dark"></i>
+            </div>
+        </div>
+        <div class="div2">
+            <h3 class="hello">Hello ,</h3>
+            <h1>I'm <span class="multiText">Designer</span></h1>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <div class="btns">
+                <button>Download CV</button>
+                <button>Hire Me</button>
+            </div>
+            <img src="images/line.svg" class="line" >
+            <img src="images/man.png" class="man">
+        </div>
+    </div>   
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typingEffect = new Typed ('.multiText', {
+        strings : ["Developer", "Youtuber", 'Designer'],
+        loop : true, 
+        typeSpeed : 100,
+        backSpeed : 80,
+        backDelay : 1500
+    })
+</script>
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
